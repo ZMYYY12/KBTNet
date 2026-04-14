@@ -1,18 +1,18 @@
 ## 代码使用简介
-# ViTKB-for-Soybean-Disease-Identification
+# KBTNet-for-Soybean-Disease-Identification
 
-> 官方PyTorch实现 | 论文处于投刊阶段，标题：《ViTKB: A New Deep Learning model for Soybean Leaf Disease Identification》
+> 官方PyTorch实现 | 论文处于投刊阶段，标题：《Integrating Kolmogorov-Arnold Networks and Sparse Attention for Robust Visual Plant Disease Symptom Identification Across  Diverse Agricultural Crops》
 
-> 提出ViTKB模型，基于PyTorch框架实现三类大豆常见病害的高精度识别，助力农业病害智能化诊断。  
+> 提出KBTNet模型，基于PyTorch框架实现三类大豆常见病害的高精度识别，助力农业病害智能化诊断。  
 
 ## 1. 研究背景与模型定位  
 
 大豆作为重要豆科作物，其叶片病害（如灰斑病、黄斑病、花叶病）易导致产量下降，传统人工检测存在效率低、依赖经验的问题。  
 
-本文提出**ViTKB**，通过灵活的非线性函数逼近与双向跨尺度注意力机制，解决大豆病害“多类别区分难、复杂背景干扰大”的问题。模型基于PyTorch框架实现，采用Vision Transformer基础架构，深度集成KAN符号网络与BiFormer双向路由注意力，实现多尺度特征的高效建模，在三类大豆病害数据集上实现优异的分类性能，为农业病害自动化诊断提供高效解决方案。  
+本文提出**KBTNet**，通过灵活的非线性函数逼近与双向跨尺度注意力机制，解决大豆病害“多类别区分难、复杂背景干扰大”的问题。模型基于PyTorch框架实现，采用Vision Transformer基础架构，深度集成KAN符号网络与BiFormer双向路由注意力，实现多尺度特征的高效建模，在三类大豆病害数据集上实现优异的分类性能，为农业病害自动化诊断提供高效解决方案。  
 
 
-## 2. ViTKB核心创新点  
+## 2. KBTNet核心创新点  
 
  
 1.**双重创新机制协同**：
@@ -181,8 +181,8 @@ ViTKB/
 论文处于投刊阶段，正式发表后将更新BibTeX引用格式，当前可临时引用：  
 
 ```bibtex  
-@article{ViTKB_Soybean_disease,  
-title={ViTKB: A New Deep Learning model for Soybean Leaf Disease Identification},  
+@article{KBTNet_Soybean_disease,  
+title={Integrating Kolmogorov-Arnold Networks and Sparse Attention for Robust Visual Plant Disease Symptom Identification Across  Diverse Agricultural Crops},  
   author={[作者姓名，待发表时补充]},  
   journal={[期刊名称，待录用后补充]},  
   year={2025},  
