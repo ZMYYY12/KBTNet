@@ -67,8 +67,8 @@ datasets/
 
 ```bash  
 # 1. 创建并激活虚拟环境  
-conda create -n ViTKB-torch python=3.9
-conda activate ViTKB-torch  
+conda create -n KBTNet-torch python=3.9
+conda activate KBTNet-torch  
 
 # 2. 安装PyTorch（支持GPU/CPU，示例为CPU版本）  
 pip install torch==2.0.1+cpu torchvision==0.15.2+cpu
@@ -150,7 +150,7 @@ python predict.py\
 ## 6. 项目文件结构  
 
 ```  
-ViTKB/  
+KBTNet/  
 ├── datasets/            # 三类大豆病害数据集   
 ├── vit_model.py         #整体模型实现
 ├──ViT_base_model.py     #原ViT模型实现
